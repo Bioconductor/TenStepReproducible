@@ -60,7 +60,11 @@ output:
    opportunities for error-prone transformation between
    representations.
 
-10.
+10. Templates for input and output steps. E.g., the
+    `SummarizedExperiment` class can be thought of as three data base
+    tables (sheets in a spreadsheet) corresponding to the main assay
+    data, the column (sample description) data, and the row (feature)
+    data.
 
 # ... and some mis-steps
 
