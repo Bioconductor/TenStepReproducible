@@ -1,0 +1,22 @@
+Package: TenStepReproducible
+Title: Ten Steps to Reproducible Research in R / Bioconductor
+Version: 0.0.1
+Authors@R: c(
+    person("Thomas", "Girke", role="aut"),
+    person("Vincent", "Carey", role="aut"),
+    person("Martin", "Morgan", email = "martin.morgan@roswellpark.org",
+        role = c("aut", "cre")))
+Description: Reproducible research is within grasp of the
+    _Bioconductor_ community. This package illustrates practices for
+    users and developers to enhance reproducibility in day-to-day
+    scientific activities.
+Depends:
+    R (>= 3.3.1)
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1

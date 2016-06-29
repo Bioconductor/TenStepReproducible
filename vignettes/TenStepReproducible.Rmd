@@ -1,0 +1,20 @@
+---
+title: "Ten Steps to Reproducible Research in R / Bioconductor"
+author: "Thomas Girke, Vincent Carey, Martin Morgan"
+date: "`r doc_date()`"
+package: "`r pkg_ver('BiocStyle')`"
+abstract: >
+    Reproduciblity is a essential component of the scientific
+    endeavor. Reproducibility in bioinformatic and statistical
+    analysis is particularly challenging, and particularly amenable to
+    practical solution. Here we outline ten steps, and a few
+    mis-steps, to enhance the reproducibility of analyses developed
+    using _R_ / _Bioconductor_ software.
+vignette: >
+    %\VignetteIndexEntry{Ten Steps to Reproducible Research in R / Bioconductor}
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteEncoding{UTF-8}
+output: 
+    BiocStyle::html_document
+---
+
