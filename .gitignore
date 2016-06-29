@@ -1,1 +1,3 @@
 inst/doc
+vignettes/*R
+vignettes/*html
