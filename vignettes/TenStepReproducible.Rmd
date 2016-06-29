@@ -18,3 +18,61 @@ output:
     BiocStyle::html_document
 ---
 
+# Why bother?
+
+- Good science
+- Research integrity -- acknowledging and correcting errors
+- ...
+
+# Ten steps...
+
+## Analysis
+
+1. 'Literate' documents (minimally, documented scripts) that describe
+   analytic steps in a way that requires actual
+   evaluation. Specification of software versions.
+
+2. Software versioning, e.g., via `sessionInfo()`
+
+3.
+
+4.
+
+## Work flows
+
+5. Track provenance, from A to Z to A. Capture parameters of upstream
+   steps. Propagate parameters to down-stream steps.
+
+6.
+
+7. `Docker` or other images capturing system requirements. Risk: lack
+   of care in creation and curation of image. Although the container
+   replicates the exact work flow, it is not useful to others wishing
+   to perform similar analyses.
+
+## Software development
+
+8. Metadata is data. Value of computing on information about primary
+   data. The `SummarizedExperiment` class.
+
+9. Defined data structures for re-use and interoperability. Heavy
+   software use is is more likely surface errors. Minimizing
+   opportunities for error-prone transformation between
+   representations.
+
+10.
+
+# ... and some mis-steps
+
+1. Graphical User Interfaces
+
+2. Within the _Bioconductor_ project: not all package 'tar' balls are
+   available.
+
+3.
+
+# Appendix
+
+```{r}
+sessionInfo()
+```

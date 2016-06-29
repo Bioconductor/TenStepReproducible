@@ -1,6 +1,6 @@
 Package: TenStepReproducible
 Title: Ten Steps to Reproducible Research in R / Bioconductor
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: c(
     person("Thomas", "Girke", role="aut"),
     person("Vincent", "Carey", role="aut"),
